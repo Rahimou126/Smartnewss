@@ -10,20 +10,29 @@ from django.db import models
 
 
 class News(models.Model):
+  
   CHOICES=(
-        ('P', 'Politics'),
-        ('T', 'Technology'),
-        ('S', 'Sport'),
-        ('A', 'Art'),
+        ('POLITICS','Politics'),
+        ('TECHNOLOGY','Technology'),
+        ('SPORT','Sport'),
+        ('ART','Art'),
     )
 
 
-
-
-
-  Title=models.CharField(max_length=10,blank=False,default='Unknown article')
-  Photo=models.ImageField(blank=True,default='')
-  Source=models.CharField(max_length=10,blank=False,default='')
-  Sub_Title=models.CharField(max_length=10,blank=False,default='')
+  Title=models.CharField(max_length=100,blank=False,default='Unknown article')
+  Photo=models.ImageField(blank=True,default='None')
+  Source=models.CharField(max_length=100,blank=False,default='')
+  Sub_Title=models.CharField(max_length=100,blank=False,default='')
   Content=models.TextField(blank=False,default='')
-  Category=models.CharField(max_length=10,choices=CHOICES,blank=False,default='')
+  Category=models.CharField(max_length=100,choices=CHOICES,blank=False)
+  created_at=models.DateTimeField(auto_now_add=True)
+  updated_at=models.DateTimeField(auto_now=True)
+
+  def __str__(self):
+    return self.Title
+
+    
+
+ 
+
+

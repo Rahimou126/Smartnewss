@@ -12,6 +12,14 @@ class Command(BaseCommand):
           call_command('loaddata','news.json')
           self.stdout.write(self.style.SUCCESS('sucesseffuly import data from fixtures to database'))
 
-      except Exception as e:
-          
-          self.stdout.write(self.style.ERROR('error loading data'))
+      except FileNotFoundError:
+            self.stderr.write(self.style.ERROR(
+                f"Error: The file '{news.json}' was not found. "
+                
+            ))
+
+      except IntegrityError as e:
+            self.stderr.write(self.style.ERROR(
+                f"Error: Database integrity error. This usually means the data you are trying to "
+                
+            ))

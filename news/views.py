@@ -1,4 +1,5 @@
 
+import datetime
 from django.shortcuts import render,reverse
 from django.template import context
 
@@ -18,6 +19,57 @@ def fetch(request):
         context={'news':news}
 
         return render(request,'news/listofnews.html',context)
+
+
+
+
+
+
+def calculduration(self,request,obj):
+
+
+        if self.model==News:
+                news=News.objects.all().order_by('created_at')
+                for n in news:
+                        reminder = obj.created_at - get_time()
+                        context={'reminder':reminder}
+        return render(request,'news/listofnews.html',context)
+        
+
+
+
+
+
+
+
+             
+       
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+def get_time():
+        
+        return datetime.now()
+
+        
+        
+        
+
+
+
+
+
 
 
 

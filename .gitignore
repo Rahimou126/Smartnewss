@@ -1,0 +1,131 @@
+# --- General ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+
+# --- Django Specific ---
+# Local settings
+local_settings.py
+local.py
+
+# SQLite databases
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# Media files
+/media/
+
+# Static files collected by collectstatic
+/static/
+/staticfiles/
+
+# Log files
+*.log
+logs/
+
+# Celery task results
+.celery-results/
+
+# Django-extensions
+/graph_models/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+
+# --- Environment & Dependencies ---
+# Virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak
+venv.bak
+
+# dotenv
+.env.*
+!.env.example
+
+
+# --- Editor & OS specific files ---
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# --- Testing ---
+# pytest cache
+.pytest_cache/
+
+# nose testing
+.noseids
+nosetests.xml
+
+
+# --- Miscellaneous ----
+# Sass cache
+.sass-cache/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Yarn
+yarn-error.log
+yarn-debug.log

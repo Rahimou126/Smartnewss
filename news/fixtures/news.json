@@ -1,0 +1,152 @@
+[
+    {
+      "Title": "Global Summit Addresses Climate Change Policies",
+      "Sub_title": "World leaders gather to discuss urgent environmental measures",
+      "Photo": "climate_summit.jpg",
+      "Content": "Representatives from over 100 countries convened in Berlin for the annual Global Climate Summit. The focus was on implementing stricter carbon emission standards and funding renewable energy projects in developing nations. Key agreements included a 2030 deadline for phasing out coal power in participating countries.",
+      "Category": "Politics",
+      "Source": "Global News Network",
+      "created_at": "2023-05-15T09:30:00.000Z",
+      "updated_at": "2023-05-15T14:45:00.000Z"
+    },
+    {
+      "Title": "Apple Unveils Revolutionary AR Glasses",
+      "Sub_title": "Tech giant enters augmented reality market with sleek wearable",
+      "Photo": "apple_ar_glasses.jpg",
+      "Content": "At its annual developer conference, Apple introduced 'Vision Pro', its first augmented reality glasses. The device features 8K displays, eye tracking, and hand gesture controls. Early demonstrations showed seamless integration with iPhone apps and revolutionary spatial computing capabilities.",
+      "Category": "Technology",
+      "Source": "Tech Today",
+      "created_at": "2023-06-05T10:00:00.000Z",
+      "updated_at": "2023-06-06T08:20:00.000Z"
+    },
+    {
+      "Title": "National Team Wins Championship After Dramatic Final",
+      "Sub_title": "Underdogs triumph in penalty shootout after 3-3 draw",
+      "Photo": "championship_win.jpg",
+      "Content": "In a stunning upset, the national football team claimed their first major international trophy after defeating defending champions 5-4 on penalties. The match went to extra time following a last-minute equalizer, with the winning penalty scored by 19-year-old rookie midfielder.",
+      "Category": "Sport",
+      "Source": "Sports World",
+      "created_at": "2023-07-12T21:15:00.000Z",
+      "updated_at": "2023-07-13T07:30:00.000Z"
+    },
+    {
+      "Title": "Controversial Art Installation Sparks Public Debate",
+      "Sub_title": "Interactive exhibit challenges societal norms",
+      "Photo": "art_installation.jpg",
+      "Content": "A new exhibition at the Modern Art Museum featuring AI-generated portraits that morph based on viewer reactions has divided critics. Some praise its innovative approach to exploring identity, while others question the ethical implications of using facial recognition technology in art.",
+      "Category": "Art",
+      "Source": "Cultural Review",
+      "created_at": "2023-04-22T11:00:00.000Z",
+      "updated_at": "2023-04-25T16:20:00.000Z"
+    },
+    {
+      "Title": "Parliament Approves Controversial Immigration Reform",
+      "Sub_title": "New legislation passes by narrow margin after heated debate",
+      "Photo": "parliament_vote.jpg",
+      "Content": "After months of negotiations, the government's immigration reform bill was approved 52-48. The law introduces stricter border controls while creating new pathways for skilled workers. Opposition parties have vowed to challenge several provisions in court.",
+      "Category": "Politics",
+      "Source": "National Herald",
+      "created_at": "2023-05-30T18:45:00.000Z",
+      "updated_at": "2023-05-31T09:10:00.000Z"
+    },
+    {
+      "Title": "Quantum Computing Breakthrough Announced",
+      "Sub_title": "Scientists achieve quantum supremacy with new 256-qubit processor",
+      "Photo": "quantum_computer.jpg",
+      "Content": "A research team announced they've built a quantum computer that solved in minutes a problem that would take conventional supercomputers years. This milestone brings practical applications like drug discovery and climate modeling closer to reality.",
+      "Category": "Technology",
+      "Source": "Science Daily",
+      "created_at": "2023-06-18T13:00:00.000Z",
+      "updated_at": "2023-06-19T11:25:00.000Z"
+    },
+    {
+      "Title": "Olympic Committee Announces New Host City",
+      "Sub_title": "2028 Summer Games awarded after original host withdrawal",
+      "Photo": "olympic_announcement.jpg",
+      "Content": "Following financial difficulties in the originally selected city, the International Olympic Committee has chosen a new location for the 2028 Summer Olympics. The games will now be held in a city that last hosted the event 40 years ago.",
+      "Category": "Sport",
+      "Source": "Olympic News Service",
+      "created_at": "2023-07-01T15:30:00.000Z",
+      "updated_at": "2023-07-02T08:45:00.000Z"
+    },
+    {
+      "Title": "Rediscovered Van Gogh Sketch to Be Auctioned",
+      "Sub_title": "Previously unknown work found in private collection",
+      "Photo": "van_gogh_sketch.jpg",
+      "Content": "Art authenticators have confirmed a newly discovered sketch as an original Van Gogh, created during his Paris period. The pencil drawing shows a street scene that later became the basis for one of his famous paintings. It's expected to fetch over $10 million at auction.",
+      "Category": "Art",
+      "Source": "Art Market Journal",
+      "created_at": "2023-04-15T10:20:00.000Z",
+      "updated_at": "2023-04-16T14:00:00.000Z"
+    },
+    {
+      "Title": "Diplomatic Crisis Emerges Over Trade Dispute",
+      "Sub_title": "Several countries recall ambassadors following sanctions",
+      "Photo": "diplomatic_meeting.jpg",
+      "Content": "Tensions escalated between economic blocs after new trade restrictions were imposed. Emergency talks have been scheduled at the United Nations as affected nations consider retaliatory measures. Analysts warn the dispute could impact global supply chains.",
+      "Category": "Politics",
+      "Source": "World Affairs",
+      "created_at": "2023-06-22T08:00:00.000Z",
+      "updated_at": "2023-06-23T12:30:00.000Z"
+    },
+    {
+      "Title": "Major Social Media Platform Announces Decentralized Alternative",
+      "Sub_title": "New protocol will give users control over their data",
+      "Photo": "social_media_app.jpg",
+      "Content": "Responding to growing privacy concerns, a tech company revealed plans for an open-source, decentralized version of its platform. The new system will use blockchain technology to allow users to own and monetize their content while preventing censorship.",
+      "Category": "Technology",
+      "Source": "Digital Frontier",
+      "created_at": "2023-07-10T14:15:00.000Z",
+      "updated_at": "2023-07-11T09:40:00.000Z"
+    },
+    {
+      "Title": "Record-Breaking Transfer Fee for Young Football Prodigy",
+      "Sub_title": "19-year-old midfielder moves clubs for unprecedented sum",
+      "Photo": "football_transfer.jpg",
+      "Content": "A European club has shattered the world transfer record by signing a teenage sensation for €220 million. The player, who only made his professional debut last season, has signed a five-year contract with the reigning league champions.",
+      "Category": "Sport",
+      "Source": "Football Insider",
+      "created_at": "2023-06-30T17:00:00.000Z",
+      "updated_at": "2023-07-01T10:15:00.000Z"
+    },
+    {
+      "Title": "Virtual Reality Art Exhibition Breaks Attendance Records",
+      "Sub_title": "Immersive digital experience attracts global visitors",
+      "Photo": "vr_art_exhibit.jpg",
+      "Content": "A museum's VR exhibition featuring interactive recreations of lost masterpieces has become its most popular show ever. Visitors using headsets can 'step inside' famous paintings and sculptures destroyed during wars or natural disasters.",
+      "Category": "Art",
+      "Source": "Digital Arts Magazine",
+      "created_at": "2023-05-20T12:00:00.000Z",
+      "updated_at": "2023-05-25T15:20:00.000Z"
+    },
+    {
+      "Title": "Opposition Leader Announces Surprising Resignation",
+      "Sub_title": "Longtime politician cites health reasons for stepping down",
+      "Photo": "politician_resignation.jpg",
+      "Content": "In an emotional press conference, the opposition leader announced their immediate resignation after 25 years in politics. The unexpected move triggers a leadership contest within the party ahead of next year's general election.",
+      "Category": "Politics",
+      "Source": "Political Times",
+      "created_at": "2023-07-05T16:30:00.000Z",
+      "updated_at": "2023-07-06T07:50:00.000Z"
+    },
+    {
+      "Title": "Breakthrough in Battery Technology Promises Longer Life",
+      "Sub_title": "New solid-state batteries could revolutionize electric vehicles",
+      "Photo": "battery_tech.jpg",
+      "Content": "Researchers have developed a battery that charges in minutes and lasts twice as long as current models. The innovation uses a new type of electrolyte that prevents degradation, potentially making electric vehicles more affordable and practical.",
+      "Category": "Technology",
+      "Source": "Future Tech",
+      "created_at": "2023-06-12T11:00:00.000Z",
+      "updated_at": "2023-06-13T10:30:00.000Z"
+    },
+    {
+      "Title": "Historic Tennis Tournament Celebrates 150th Anniversary",
+      "Sub_title": "Special edition competition features retro elements",
+      "Photo": "tennis_tournament.jpg",
+      "Content": "One of tennis's oldest tournaments is marking its sesquicentennial with a special edition featuring period costumes, wooden rackets in exhibition matches, and a recreation of the original 1873 court dimensions for nostalgic matches between former champions.",
+      "Category": "Sport",
+      "Source": "Tennis World",
+      "created_at": "2023-07-03T09:00:00.000Z",
+      "updated_at": "2023-07-04T12:15:00.000Z"
+    }
+  ]

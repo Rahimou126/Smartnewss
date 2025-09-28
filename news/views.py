@@ -4,11 +4,14 @@ from django.shortcuts import render,reverse
 from django.template import context
 
 from .models import News
-from django.http import HttpResponse
+from django.http import Http404, HttpResponse
 
 
 
 # Create your views here.
+
+
+
 
 
 
@@ -23,17 +26,39 @@ def fetch(request):
 
 
 
+def search(self,request,search_term):
+        if request.method=='GET':
+
+               if self.Title=search_term:
+                  filtred_news=News.objects.get(Title=search_term)
+               else:
+                  Http404('Error')
+        return render(request,'news/listofnews.html',filtred_news)
+        
+                  
 
 
-def calculduration(self,request,obj):
+
+        
+        
+                 
 
 
-        if self.model==News:
-                news=News.objects.all().order_by('created_at')
-                for n in news:
-                        reminder = obj.created_at - get_time()
-                        context={'reminder':reminder}
-        return render(request,'news/listofnews.html',context)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         
 
 
@@ -58,9 +83,6 @@ def calculduration(self,request,obj):
 
 
 
-def get_time():
-        
-        return datetime.now()
 
         
         

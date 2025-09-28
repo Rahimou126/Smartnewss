@@ -21,7 +21,7 @@ class News(models.Model):
 
 
   Title=models.CharField(max_length=100,blank=False,default='Unknown article')
-  Photo=models.ImageField(blank=True,default='None')
+  
   Source=models.CharField(max_length=100,blank=False,default='')
   Sub_Title=models.CharField(max_length=100,blank=False,default='')
   Content=models.TextField(blank=False,default='')

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <title>Latest News</title>
     <style>
-        /* ===== Reset some defaults ===== */
+        
         * {
             margin: 0;
             padding: 0;
@@ -28,7 +28,6 @@
             color: #222;
         }
 
-        /* ===== News Container ===== */
         .news-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -37,7 +36,7 @@
             margin: 0 auto;
         }
 
-        /* ===== Single News Card ===== */
+    
         .news-card {
             background: #fff;
             border-radius: 12px;
@@ -99,16 +98,21 @@
     <h1>Latest News</h1>
 
     <div class="news-container">
-        <!-- Loop through News model data here -->
-        {% for n in reminder %}
+        
+        {% for n in news %}
         <div class="news-card">
            
             <div class="news-content">
                
-                <p class="news-date">{{ n }}</p>
-                <p class="news-body">
+                <h2> {{ n.Title }}</h2>
+                <p> {{ n.Content }} </p>
+
+                <small>{{ n.created_at|timesince }} ago</small>
+
+             
+
                     
-                </p>
+                
                 <a href=" " class="read-more">Read More →</a>
             </div>
         </div>

@@ -1,5 +1,7 @@
 
 import datetime
+
+from django.core.paginator import Paginator
 from django.shortcuts import render,reverse
 from django.template import context
 
@@ -17,8 +19,13 @@ from django.http import Http404, HttpResponse
 
 def fetch(request):
 
-
         news=News.objects.all().order_by('created_at')
+        paginator = Paginator(news, 4)
+
+        page = request.GET.get('page', 1)
+
+
+        news = paginator.get_page(page)
         context={'news':news}
 
         return render(request,'news/listofnews.html',context)

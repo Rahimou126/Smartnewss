@@ -1,6 +1,8 @@
 from sys import stdout
 from django.core.management.base import BaseCommand
 from django.core.management import call_command
+from django.db import IntegrityError
+
 
 class Command(BaseCommand):
   
@@ -14,7 +16,7 @@ class Command(BaseCommand):
 
       except FileNotFoundError:
             self.stderr.write(self.style.ERROR(
-                f"Error: The file '{news.json}' was not found. "
+                f"Error: The file '' was not found. "
                 
             ))
 

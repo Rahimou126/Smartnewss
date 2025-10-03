@@ -25,20 +25,6 @@ def fetch(request):
 
 
 
-
-def search(self,request,search_term):
-        if request.method=='GET':
-
-               if self.Title=search_term:
-                  filtred_news=News.objects.get(Title=search_term)
-               else:
-                  Http404('Error')
-        return render(request,'news/listofnews.html',filtred_news)
-        
-                  
-
-
-
         
         
                  

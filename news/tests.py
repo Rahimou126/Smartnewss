@@ -1,9 +1,12 @@
-
-
 from django.test import TestCase
 from django.urls import reverse
 from .models import News
 from django.utils import timezone
+
+
+
+
+
 
 class NewsListViewTests(TestCase):
 
@@ -32,12 +35,7 @@ class NewsListViewTests(TestCase):
 
 
 
-
 class SearchFilterTests(TestCase):
-
-
-
-
 
 
 
@@ -47,7 +45,6 @@ class SearchFilterTests(TestCase):
         self.assertContains(response,self.news1.Title)
         self.assertNotContains(response,self.news2.Title)
 
-
     
 
     def test_search_filter_by_content(self):
@@ -56,14 +53,18 @@ class SearchFilterTests(TestCase):
         self.assertContains(response,self.news3.Title)
         self.assertNotContains(response,self.news1.Title)
 
-
     
 
     def test_search_filter_no_result(self):
         response=self.client.get(reverse('fetch'),{'q':'no-existent'})
         self.assertEqual(response.status_code, 200)
         self.assertContains(response,'No news found')
-        
+
+
+
+
+
+ 
 
 
     

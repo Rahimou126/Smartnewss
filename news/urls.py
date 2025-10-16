@@ -6,6 +6,7 @@ from . import views
 urlpatterns = [
 
     path('fetch/',views.fetch,name='fetch'),
+    path('detail/',views.detail,name='detail'),
     
    
    

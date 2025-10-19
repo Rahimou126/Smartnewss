@@ -3,7 +3,7 @@ import datetime
 from turtle import title
 
 from django.core.paginator import Paginator
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 
 
 from .models import News
@@ -21,40 +21,44 @@ from django.http import HttpResponse
 
 def fetch(request):
 
-        news=News.objects.all().order_by('created_at')
-        paginator = Paginator(news, 4)
-
-        page = request.GET.get('page', 1)
-
-
-        news = paginator.get_page(page)
-        context={'news':news}
-
+        
+        
         search=request.GET.get('search')
 
         if search:
 
+
                 news=News.objects.filter(Q(Title__icontains=search) or Q(Content__icontains=search))
 
                 context={'news':news}
-        else:
-                news=[ ]
+        
 
-                
+        else:
+                news=News.objects.all().order_by('created_at')
+                paginator = Paginator(news, 4)
+                page = request.GET.get('page', 1)
+                news = paginator.get_page(page)
+
+                context={'news':news}
+
+            
         return render(request,'news/list.html',context)
 
 
 
 
 
-def detail(request):
-        if request.method=='GET':
+def detail(request,news_id):
 
-                news_detail_id=request.GET.get('id')
-                details=News.objects.get(id=news_detail_id)
-                context={'details':details}
+        try:
+                
+
+                news_id=get_object_or_404(News, id=news_id)
+                
+                context={'details':news_id}
         
-        else:
+        except Exception as e:
+
                 HttpResponse("there is now details")
         
 

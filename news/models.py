@@ -1,4 +1,6 @@
+from enum import unique
 from django.db import models
+
 
 
 
@@ -20,13 +22,15 @@ class News(models.Model):
 
 
   Title=models.CharField(max_length=100,blank=False,default='Unknown article')
-  Photo=models.ImageField(blank=True,default='None')
+  
   Source=models.CharField(max_length=100,blank=False,default='')
   Sub_Title=models.CharField(max_length=100,blank=False,default='')
   Content=models.TextField(blank=False,default='')
   Category=models.CharField(max_length=100,choices=CHOICES,blank=False)
   created_at=models.DateTimeField(auto_now_add=True)
   updated_at=models.DateTimeField(auto_now=True)
+  
+
 
   def __str__(self):
     return self.Title
